@@ -4,7 +4,7 @@ const db = new sqlite3.Database(dbName);
 
 db.serialize(() => {
     const sql = `
-    CREATE TABLE IF NOT EXIST articles
+    CREATE TABLE IF NOT EXISTS articles
     (id integer primary key, title, content TEXT)
     `;
     db.run(sql);
