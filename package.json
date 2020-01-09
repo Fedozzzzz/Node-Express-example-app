@@ -11,7 +11,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "body-parser": "latest",
     "express": "4.17.1",
-    "body-parser": "latest"
+    "sqlite3": "^4.1.1"
   }
 }
